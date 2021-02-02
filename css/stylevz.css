@@ -55,7 +55,7 @@
 }
 
 .menu-list li a:hover {
-    color: yellow;
+    color: #c1b461;
 }
 
 .banner {
@@ -164,4 +164,12 @@ padding: 40px 0px;
     margin: auto;
     padding: 0px 10px;
     color: white;
+}
+
+#pad {
+    padding: 2em;
+}
+
+.title {
+    padding: 1em;
 }
