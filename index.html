@@ -10,23 +10,33 @@
 <body>
     <nav class="navbar">
         <div class="content">
-            <div class="logo"><a href="#">PIER 68</a></div>
-            <ul class="menu-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Book</a></li>
-            </ul>
+           <div class="logo"><a href="#"><img src="images/media_skillsusa21/images-online/sign.jpg" alt="logo" width="100px" height="100px" ></a></div>
+           <ul class="menu-list">
+               <div class="icon cancel-btn">
+                   <i class="fas fa-times"></i>
+               </div>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Contant</a></li>
+               <li><a href="#">Booking</a></li>
+           </ul>
+           <div class="icon menu-btn">
+               <i class="fas fa-bars"></i>
+           </div>
         </div>
-    </nav>
+   </nav>
 
     <div class="banner"></div>
     <div class="about">
         <div class="content">
+            <div class="title"><a>Cars</a></div>
+            <div class="all-content">
+                <p class="grub">--WELCOME--</p>
+                <p>Thank you for checking out Pier 68 Boat Rentals. We specialize in center console, pontoon boat, deck boat and fishing boat rentals. Our family has been renting boats since 1986. We offer daily rates as well as multi day discounts and weekly rates. We also have reasonable monthly rates during the winter for our snowbird friends.
 
-            <div class="title1">Preview</div>
-            <p class="preview">Thank you for checking out Pier 68 Boat Rentals. We specialize in center console, pontoon boat, deck boat and fishing boat rentals. Our family has been renting boats since 1986. We offer daily rates as well as multi day discounts and weekly rates. We also have reasonable monthly rates during the winter for our snowbird friends.
-                At Pier 68 all of our boats are equipped with a fuel efficient Yamaha four stroke outboard motor. Each boat also has a ladder for getting in and out of the water. For navigation every Pier 68 rental boat is equipped with a color gps/chartplotter. Our deck boats and pontoon boats feature a bimini top for maximum shade and our fishing boats have a t-top for 360' fishibility. Most fishing boats are also equipped with a live bait well. Rod/reel rentals as well as frozen bait is available.</p>
-        </div>    
+                    At Pier 68 all of our boats are equipped with a fuel efficient Yamaha four stroke outboard motor. Each boat also has a ladder for getting in and out of the water. For navigation every Pier 68 rental boat is equipped with a color gps/chartplotter. Our deck boats and pontoon boats feature a bimini top for maximum shade and our fishing boats have a t-top for 360' fishibility. Most fishing boats are also equipped with a live bait well. Rod/reel rentals as well as frozen bait is available.</p>
+            </div>
+            
+        </div>
     </div>
 
     
@@ -39,5 +49,27 @@
             <a href="#">Pontoon Boat Rentals</a>
         </div>
     </footer>
+
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            body.classList.remove("disabledScroll");
+        }
+
+        window.onscroll = ()=>{
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky")
+        }
+    </script>
 </body>
 </html>
