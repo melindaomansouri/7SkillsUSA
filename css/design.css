@@ -9,8 +9,10 @@ footer {
 
 footer > .ft-content > a {
     text-decoration: none;
-    color: #C1B461;
+    color: white;
     margin-top: 40px;
+    
+    
 }
 footer > .ft-content {
     text-align: center;
@@ -19,4 +21,12 @@ footer > .ft-content {
     margin-left: 40px;
     margin-right: 40px;
     
+}
+
+.ft-content a:link {
+    color: white;
+}
+
+.ft-content a:hover {
+    color: #c1b461;
 }
