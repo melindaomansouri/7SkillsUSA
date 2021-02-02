@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: black;
+    background-image: url(../images/media_skillsusa21/images-online/fishing_boat.jpg);
+    position: absolute;
     padding: 0px;
     margin: 0px;
 }
@@ -173,4 +174,11 @@ padding: 40px 0px;
 .grub {
     display: flex;
     justify-content: center;
+}
+
+.media {
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 10px;
+    color: white;
 }
