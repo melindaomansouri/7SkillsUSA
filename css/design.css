@@ -2,6 +2,25 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.background-image{
+    background: url(../images/media_skillsusa21/images-online/fishing_boat.jpg);
+    background-size: auto;
+    
+    
+}
+
+.content {
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 10px;
+    color: white;
+}
+.all-content {
+    padding-top: 20px;
+    width: 100%;
+    color: white;
+}
+
 footer {
     background-color: #9D2E2E;
     height: 100px;
@@ -23,9 +42,6 @@ footer > .ft-content {
     
 }
 
-.ft-content a:link {
-    color: white;
-}
 
 .ft-content a:hover {
     color: #c1b461;
