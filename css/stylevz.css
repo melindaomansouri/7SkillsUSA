@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*font-family: -FONTDAN-;*/
+}
+
+.content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navbar {
+    background: #1b1b1b;
+    position: fixed;
+    z-index: 5px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.navbar > .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+}
+.menu-list li a{
+    color: #fff;
+}
