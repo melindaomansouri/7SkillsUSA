@@ -2,10 +2,12 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.background-image{
+
+.banner > .background-image{
     background: url(../images/media_skillsusa21/images-online/fishing_boat.jpg);
-    background-size: auto;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 

@@ -4,14 +4,7 @@
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-.background-image{
-    background: url(../images/media_skillsusa21/images-online/fishing_boat.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
+        
 }
 
 .content {
