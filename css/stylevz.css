@@ -5,7 +5,26 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.background-image{
+    background: url(../images/media_skillsusa21/images-online/fishing_boat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
 
+.content {
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 10px;
+    color: white;
+}
+.all-content {
+    padding-top: 20px;
+    width: 100%;
+    color: white;
+}
 
 .navbar {
     position: fixed;
@@ -172,4 +191,35 @@ padding: 40px 0px;
 
 .title {
     padding: 1em;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+footer {
+    background-color: #9D2E2E;
+    height: 100px;
+}
+
+footer > .ft-content > a {
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    
+    
+}
+footer > .ft-content {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+
+.ft-content a:hover {
+    color: #c1b461;
 }
