@@ -191,6 +191,7 @@ padding: 40px 0px;
 
 #pad {
     padding: 2em;
+    color: white;
 }
 
 .title {
@@ -228,6 +229,7 @@ footer > .ft-content {
     color: #c1b461;
 }
 
+
 .mediawrapper-2 {
     background-image: url(../images/media_skillsusa21/images-online/pier68_building.jpg);
     background-size: cover;
@@ -240,4 +242,22 @@ footer > .ft-content {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.title > * {
+    color: white;
+}
+
+td {
+
 }
