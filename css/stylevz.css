@@ -71,11 +71,22 @@
 }
 
 .banner {
+    background-color: black;
     height: 100vh;
     background: url(../images/media_skillsusa21/images-online/sunset_fishing.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        background-color: black;
+    }
 }
 
 .about {
@@ -215,4 +226,18 @@ footer > .ft-content {
 
 .ft-content a:hover {
     color: #c1b461;
+}
+
+.mediawrapper-2 {
+    background-image: url(../images/media_skillsusa21/images-online/pier68_building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.mediawrapper-3 {
+    background-image: url(../images/media_skillsusa21/images-online/oceanrider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
