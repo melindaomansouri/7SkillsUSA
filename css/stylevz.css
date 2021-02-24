@@ -5,7 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
         
-}
 
 .content {
     max-width: 100%;
@@ -37,7 +36,7 @@
 .navbar .content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navbar .logo a {
@@ -49,6 +48,7 @@
 
 .navbar .menu-list {
     display: inline-flex;
+    
 }
 
 
@@ -188,7 +188,7 @@ padding: 40px 0px;
     color: white;
 }
 
-#pad {
+aside {
     padding: 2em;
     color: white;
 }
@@ -255,8 +255,4 @@ p {
 
 .title > * {
     color: white;
-}
-
-td {
-
 }
